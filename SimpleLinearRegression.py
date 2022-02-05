@@ -59,7 +59,7 @@ class LinReg:
         if(localFlag == True):
             plt.show()
         else:
-            plt.savefig("output/LinearRegressionTrainingResults.png")
+            plt.savefig("/output/LinearRegressionTrainingResults.png")
     
     def plotTestResults(self,localFlag=True):
         
@@ -71,7 +71,7 @@ class LinReg:
         if(localFlag == True):
             plt.show()
         else:
-            plt.savefig("output/LinearRegressionTestResults.png")
+            plt.savefig("/output/LinearRegressionTestResults.png")
 
 
 # Local Run
