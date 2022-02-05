@@ -27,8 +27,8 @@ class LinReg:
         return([self.XNames, self.yNames])
     
     def printNames(self):
-        print("X: ", self.XNames)
-        print("y: ", self.yNames)
+        print("This is X: ", self.XNames)
+        print("This is y: ", self.yNames)
         
     def splitData(self):
         #Splitting the data set into training and test set
